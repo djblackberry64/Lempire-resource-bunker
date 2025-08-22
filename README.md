@@ -129,6 +129,6 @@ If I make an error in my code, do not tell me the fix directly. Instead, ask me 
     • Step 4 (Level Up): Practice on LeetCode / CodeKata / Exercism.<br />
     • Step 5 (Boost Productivity): Explore the open-source tools.<br />
 <hr />
-## License<br />
+<h3>License</h3><br />
 - Code: <a href="https://github.com/djblackberry64/404-resource-bunker/blob/main/LICENSE-CODE">Apache 2.0</a><br />
 - Content: <a href="">CC BY 4.0</a>
