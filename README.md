@@ -8,55 +8,55 @@ A repo focused on refering and collecting good resources for programming and gen
 Welcome! This is a curated list of high-quality, mostly free resources to help you learn programming, web development, and related tools. Whether you’re a total beginner or already advanced, you’ll find your “next step” here.
 
 1. 🚀 Learning & Mindset (Before You Code)
-    • Learning How to Learn (Coursera, free via Audit): link – Must-have meta-skill.
-    • Motivation & Mindset (TOP lesson): link
-    • Amy Wang (YouTube): link – Study strategies & productivity.
-    • Justin Sung (YouTube): link – Evidence-based learning efficiency.
+    • Learning How to Learn (Coursera, free via Audit): <a href"">Link</a> – Must-have meta-skill.
+    • Motivation & Mindset (TOP lesson): <a href"">Link</a>
+    • Amy Wang (YouTube): <a href"">Link</a> – Study strategies & productivity.
+    • Justin Sung (YouTube): <a href"">Link</a> – Evidence-based learning efficiency.
     • Self-Study Talks: Study guide | University-level course intro
 
 2. 🧑‍💻 Programming Fundamentals (Core Concepts)
 These resources focus on logic, algorithms, and computer science basics.
-    • Harvard CS50x (edX): link – Legendary intro to computer science.
-    • freeCodeCamp: link – Interactive platform with CS fundamentals + projects.
-    • Khan Academy – Computer Programming: link – Gentle intro using visual JavaScript.
-    • GeeksforGeeks Fundamentals: link – Encyclopedia-style explanations.
+    • Harvard CS50x (edX): <a href"">Link</a> – Legendary intro to computer science.
+    • freeCodeCamp: <a href"">Link</a> – Interactive platform with CS fundamentals + projects.
+    • Khan Academy – Computer Programming: <a href"">Link</a> – Gentle intro using visual JavaScript.
+    • GeeksforGeeks Fundamentals: <a href"">Link</a> – Encyclopedia-style explanations.
 
 3. 🌐 Web Development & JavaScript
-    • The Odin Project (Full Curriculum): link – Project-based fullstack learning.
-    • Full Stack Open (Helsinki): link – React, Node, GraphQL, TS.
-    • MDN JavaScript Guide: link – Definitive reference.
-    • JavaScript.info: link – Modern, thorough tutorial.
-    • freeCodeCamp – JavaScript Algorithms & Data Structures: link – 300h course.
-    • Wes Bos – JavaScript30: link – Build 30 small JS projects in 30 days.
-    • Traversy Media (YouTube): link – Crash courses + project tutorials.
-    • w3schools (Quick Reference): link
+    • The Odin Project (Full Curriculum): <a href"">Link</a> – Project-based fullstack learning.
+    • Full Stack Open (Helsinki): <a href"">Link</a> – React, Node, GraphQL, TS.
+    • MDN JavaScript Guide: <a href"">Link</a> – Definitive reference.
+    • JavaScript.info: <a href"">Link</a> – Modern, thorough tutorial.
+    • freeCodeCamp – JavaScript Algorithms & Data Structures: <a href"">Link</a> – 300h course.
+    • Wes Bos – JavaScript30: <a href"">Link</a> – Build 30 small JS projects in 30 days.
+    • Traversy Media (YouTube): <a href"">Link</a> – Crash courses + project tutorials.
+    • w3schools (Quick Reference): <a href"">Link</a>
 
 4. 🐍 Python
-    • University of Helsinki Python MOOC: link – University-level.
-    • Python for Everybody (PY4E): link – Beginner-friendly, free book + course.
-    • Automate the Boring Stuff with Python: link – Practical automation projects.
-    • Official Python Tutorial: link – Authoritative.
-    • Real Python: link – High-quality articles.
-    • Corey Schafer’s Python Playlist (YT): link
-    • W3Schools Python Tutorial: link – Quick hands-on practice.
-    • Python books: 
+    • University of Helsinki Python MOOC: <a href"">Link</a> – University-level.
+    • Python for Everybody (PY4E): <a href"">Link</a> – Beginner-friendly, free book + course.
+    • Automate the Boring Stuff with Python: <a href"">Link</a> – Practical automation projects.
+    • Official Python Tutorial: <a href"">Link</a> – Authoritative.
+    • Real Python: <a href"">Link</a> – High-quality articles.
+    • Corey Schafer’s Python Playlist (YT): <a href"">Link</a>
+    • W3Schools Python Tutorial: <a href"">Link</a> – Quick hands-on practice.
+    • Python books: <a href"">Books here</a>
 
 5. ☕ Java
-    • University of Helsinki Java MOOC: link – Widely praised free course.
+    • University of Helsinki Java MOOC: <a href"">Link</a> – Widely praised free course.
 
 6. Hacker
     • Tryhackme: tryhackme – Popular Resource for Cyber Security beginners
 
 7. 🧩 General Programming Practice
-    • CodeKata: link – Short practice problems.
-    • LeetCode: link – Interview prep + problem-solving.
-    • Codecademy: link – Interactive beginner platform.
-    • Codedex: link – Similar to Codecademy.
-    • Exercism: link – Small coding challenges with mentor feedback.
+    • CodeKata: <a href"">Link</a> – Short practice problems.
+    • LeetCode: <a href"">Link</a> – Interview prep + problem-solving.
+    • Codecademy: <a href"">Link</a> – Interactive beginner platform.
+    • Codedex: <a href"">Link</a> – Similar to Codecademy.
+    • Exercism: <a href"">Link</a> – Small coding challenges with mentor feedback.
 
 8. 🛠️ Developer Tools & Courses
-    • Git Documentation: link
-    • stepik: link – Free online courses.
+    • Git Documentation: <a href"">Link</a>
+    • stepik: <a href"">Link</a> – Free online courses.
     • Paid courses: The App Brewery on Udemy
     • Apps (mobile learning):
         ◦ Enki (bite-sized, no ads)
@@ -66,13 +66,13 @@ These resources focus on logic, algorithms, and computer science basics.
         ◦ Coddy.tech (a really good website for learning how to program, has a Duolingo like energy system)
 
 9. 🎨 Free & Open-Source Software (Productivity & Creative)
-    • Office: LibreOffice – link
-    • Design: GIMP (link), Krita (link), Inkscape (link)
-    • Video Editing: DaVinci Resolve (link)
-    • Knowledge & Sync: Syncthing (link), Logseq (link), Joplin (link), Notion (link)
+    • Office: LibreOffice – <a href"">Link</a>
+    • Design: GIMP (<a href"">Link</a>), Krita (<a href"">Link</a>), Inkscape (<a href"">Link</a>)
+    • Video Editing: DaVinci Resolve (<a href"">Link</a>)
+    • Knowledge & Sync: Syncthing (<a href"">Link</a>), Logseq (<a href"">Link</a>), Joplin (<a href"">Link</a>), Notion (<a href"">Link</a>)
 
 10. ⌨️ Productivity & Typing
-    • Keybr (Typing practice): link
+    • Keybr (Typing practice): <a href"">Link</a>
 
 11. 🤖 AI Tutoring Prompt (Optional)
 If you want to use an AI as a strict Socratic tutor, here’s a ready-to-use prompt:
