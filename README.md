@@ -70,6 +70,7 @@ These resources focus on logic, algorithms, and computer science basics.
     • Design: GIMP (<a href="https://www.gimp.org/downloads/">Link</a>), Krita (<a href="https://krita.org/de/download/">Link</a>), Inkscape (<a href="https://inkscape.org/release/inkscape-1.4.2/">Link</a>)<br />
     • Video Editing: DaVinci Resolve (<a href="https://www.blackmagicdesign.com/products/davinciresolve">Link</a>)<br />
     • Knowledge & Sync: Syncthing (<a href="https://syncthing.net/downloads/">Link</a>), Logseq (<a href="https://logseq.com/downloads">Link</a>), Joplin (<a href="https://joplinapp.org/help/install/">Link</a>), Notion (<a href="https://www.notion.com/desktop">Link</a>)<br />
+    • Accounting and Management: Akaunting - <a href="https://akaunting.com/">Link</a>
 <hr />
 10. ⌨️ Productivity & Typing
     • Keybr (Typing practice): <a href="https://www.keybr.com/">Link</a><br />
