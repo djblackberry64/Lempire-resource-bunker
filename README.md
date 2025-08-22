@@ -47,7 +47,7 @@ These resources focus on logic, algorithms, and computer science basics.
 6. Hacker
     • Tryhackme: <a href="https://tryhackme.com/">tryhackme</a> – Popular Resource for Cyber Security beginners<br />
 <hr />
-7. 🧩 General Programming Practice
+7. 🧩 General Programming Practice<br \>
     • CodeKata: <a href="http://codekata.com/">Link but be ware of no HTTPS</a> – Short practice problems.<br />
     • LeetCode: <a href="https://leetcode.com/">Link</a> – Interview prep + problem-solving.<br />
     • Codecademy: <a href="https://www.codecademy.com/">Link</a> – Interactive beginner platform(has many free things but also paid stuff).<br />
