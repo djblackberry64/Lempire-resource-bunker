@@ -131,4 +131,4 @@ If I make an error in my code, do not tell me the fix directly. Instead, ask me 
 <hr />
 <h3>License</h3><br />
 - Code: <a href="https://github.com/djblackberry64/404-resource-bunker/blob/main/LICENSE-CODE">Apache 2.0</a><br />
-- Content: <a href="">CC BY 4.0</a>
+- Content: <a href="https://github.com/djblackberry64/404-resource-bunker/blob/main/LICENSE-CONTENT">CC BY 4.0</a>
