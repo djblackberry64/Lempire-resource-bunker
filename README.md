@@ -130,5 +130,5 @@ If I make an error in my code, do not tell me the fix directly. Instead, ask me 
     • Step 5 (Boost Productivity): Explore the open-source tools.<br />
 <hr />
 ## License<br />
-- Code: [LICENSE License 2.0](LICENSE-CODE)  
-- Content: [CC BY 4.0](LICENSE-CONTENT)
+- Code: <a href="https://github.com/djblackberry64/404-resource-bunker/blob/main/LICENSE-CODE">Apache 2.0</a><br />
+- Content: <a href="">CC BY 4.0</a>
