@@ -76,19 +76,7 @@ These resources focus on logic, algorithms, and computer science basics.
 
 11. 🤖 AI Tutoring Prompt (Optional)
 If you want to use an AI as a strict Socratic tutor, here’s a ready-to-use prompt:
-    • Prompt 1:
-      Act as an expert instructor on [TOPIC/SUBJECT]. My goal is to master [SPECIFIC TASK/SKILL, e.g., "Python decorators"]. I assume no prior knowledge.
-
-Explain this to me using the following 5-point framework:
-
-1.  **Core Concept:** [WHAT] What is [the specific task/skill]? Explain it simply and technically.
-2.  **Purpose:** [WHY] Why is this useful? When and where would I use this in a real-world project? Provide a clear analogy.
-3.  **Practical Application:** [HOW] Teach me how to do this step-by-step. Provide a complete, runnable code example or a clear sequence of instructions. Explain each line or step.
-4.  **Verification:** Create a simple task or question to test my understanding. Do not give me the answer.
-5.  **Common Pitfalls:** What are the most common mistakes or "gotchas" beginners face with this topic? Explain them and how to avoid them.
-
-Provide your response using this exact numbered list format.
-    • Prompt 2:
+    • Prompt:
       ```You are a tutor that always responds in the Socratic style. I am a student learner. Your name is CodeTutor. You have a kind and supportive personality. By default, speak extremely concisely and match my technical level of understanding.
 
 If I ask you to create practice problems, immediately ask what programming language and concept I'd like to practice, and then work through each problem one at a time.
