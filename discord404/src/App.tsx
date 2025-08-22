@@ -1,34 +1,39 @@
-import './App.css'
+import { Routes, Route, Link } from "react-router-dom";
+import "./App.css";
+import PythonPage from "./pages/Python";
+import JsPage from "./pages/JavaScript";
+import PhpPage from "./pages/Php";
+import JavaPage from "./pages/Java";
+import CppPage from "./pages/Cpp";
 
 function App() {
   return (
     <div className="App">
       <h1>404-Resource-Bunker</h1>
-      <h3>made by <a href="https://discord.com/invite/9yNUd34x">404 Discord Group</a></h3>
-      <ul>
-        <li>
-          <a href="https://react.dev" target="_blank" rel="noopener noreferrer">
-            React Documentation
-          </a>
-        </li>
-        <li>
-          <a href="https://developer.mozilla.org/" target="_blank" rel="noopener noreferrer">
-            MDN Web Docs
-          </a>
-        </li>
-        <li>
-          <a href="https://laravel.com/docs" target="_blank" rel="noopener noreferrer">
-            Laravel Docs
-          </a>
-        </li>
-        <li>
-          <a href="https://roadmap.sh" target="_blank" rel="noopener noreferrer">
-            Developer Roadmaps
-          </a>
-        </li>
-      </ul>
+      <h3>
+        made by{" "}
+        <a href="https://discord.com/invite/9yNUd34x">
+          404 Discord Group
+        </a>
+      </h3>
+
+      <div className="button-grid">
+        <Link to="/pages/python" className="lang-btn">Python</Link>
+        <Link to="/pages/js" className="lang-btn">JavaScript</Link>
+        <Link to="/pages/php" className="lang-btn">PHP</Link>
+        <Link to="/pages/java" className="lang-btn">Java</Link>
+        <Link to="/pages/cpp" className="lang-btn">C++</Link>
+      </div>
+
+      <Routes>
+        <Route path="/pages/python" element={<PythonPage />} />
+        <Route path="/pages/js" element={<JsPage />} />
+        <Route path="/pages/php" element={<PhpPage />} />
+        <Route path="/pages/java" element={<JavaPage />} />
+        <Route path="/pages/cpp" element={<CppPage />} />
+      </Routes>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
