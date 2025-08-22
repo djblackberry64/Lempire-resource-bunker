@@ -1,4 +1,5 @@
 # 404-resource-bunker
+##made by <a href="https://discord.gg/9yNUd34x">404 Discord group</a>
 A repo focused on refering and collecting good resources for programming and general digital work
 
 📚 Coding & Productivity Resource Hub
