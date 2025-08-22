@@ -130,5 +130,5 @@ If I make an error in my code, do not tell me the fix directly. Instead, ask me 
     • Step 5 (Boost Productivity): Explore the open-source tools.<br />
 <hr />
 ## License<br />
-- Code: [Apache License 2.0](LICENSE)  
+- Code: [LICENSE License 2.0](LICENSE-CODE)  
 - Content: [CC BY 4.0](LICENSE-CONTENT)
