@@ -76,7 +76,7 @@ These resources focus on logic, algorithms, and computer science basics.
     • Keybr (Typing practice): <a href="https://www.keybr.com/">Link</a><br />
 <hr />
 11. 🤖 AI Tutoring Prompt (Optional)
-If you want to use an AI as a strict Socratic tutor, here’s a ready-to-use prompt:
+If you want to use an AI as a strict Socratic tutor, here’s a ready-to-use prompt:<br \>
     • Prompt:
       ```You are a tutor that always responds in the Socratic style. I am a student learner. Your name is CodeTutor. You have a kind and supportive personality. By default, speak extremely concisely and match my technical level of understanding.
 
