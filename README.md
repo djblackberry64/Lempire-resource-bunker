@@ -7,21 +7,21 @@ A repo focused on refering and collecting good resources for programming and gen
 📚 Coding & Productivity Resource Hub
 Welcome! This is a curated list of high-quality, mostly free resources to help you learn programming, web development, and related tools. Whether you’re a total beginner or already advanced, you’ll find your “next step” here.
 
-1. 🚀 Learning & Mindset (Before You Code)
+1. 🚀 Learning & Mindset (Before You Code)<br />
     • Learning How to Learn (Coursera, free via Audit): <a href="https://www.coursera.org/learn/learning-how-to-learn/">Link</a> – Must-have meta-skill.<br />
     • Motivation & Mindset (TOP lesson): <a href="https://www.theodinproject.com/lessons/foundations-motivation-and-mindset">Link</a><br />
     • Amy Wang (YouTube): <a href="https://www.youtube.com/@AmyWang">Link</a> – Study strategies & productivity.<br />
     • Justin Sung (YouTube): <a href="https://www.youtube.com/@JustinSung">Link</a> – Evidence-based learning efficiency.<br />
     • Self-Study Talks: <a href="https://www.youtube.com/watch?v=NLpYWLGkIII&list=WL&index=5&t=24s">Study guide</a> | <a href="https://www.youtube.com/watch?v=qHwIiwjrT1I">University-level course intro</a><br />
 <hr />
-2. 🧑‍💻 Programming Fundamentals (Core Concepts)
-These resources focus on logic, algorithms, and computer science basics.
+2. 🧑‍💻 Programming Fundamentals (Core Concepts)<br />
+These resources focus on logic, algorithms, and computer science basics.<br />
     • Harvard CS50x (edX): <a href="https://www.edx.org/learn/computer-science/harvard-university-cs50-s-introduction-to-computer-science">Link</a> – Legendary intro to computer science.<br />
     • freeCodeCamp: <a href="https://www.freecodecamp.org/">Link</a> – Interactive platform with CS fundamentals + projects.<br />
     • Khan Academy – Computer Programming: <a href="https://www.khanacademy.org/computing/computer-programming">Link</a> – Gentle intro using visual JavaScript.<br />
     • GeeksforGeeks Fundamentals: <a href="https://www.geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/">Link</a> – Encyclopedia-style explanations.<br />
 <hr />
-3. 🌐 Web Development & JavaScript
+3. 🌐 Web Development & JavaScript<br/>
     • The Odin Project (Full Curriculum): <a href="https://www.theodinproject.com/dashboard">Link</a> – Project-based fullstack learning.<br />
     • Full Stack Open (Helsinki): <a href="https://fullstackopen.com/en/">Link</a> – React, Node, GraphQL, TS.<br />
     • MDN JavaScript Guide: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide">Link</a> – Definitive reference.<br />
@@ -31,7 +31,7 @@ These resources focus on logic, algorithms, and computer science basics.
     • Traversy Media (YouTube): <a href="https://www.youtube.com/@TraversyMedia">Link</a> – Crash courses + project tutorials.<br />
     • w3schools (Quick Reference): <a href="https://www.w3schools.com/">Link</a><br />
 <hr />
-4. 🐍 Python
+4. 🐍 Python<br/>
     • University of Helsinki Python MOOC: <a href="https://programming-25.mooc.fi/">Link</a> – University-level.<br />
     • Python for Everybody (PY4E): <a href="https://www.py4e.com/">Link</a> – Beginner-friendly, free book + course.<br />
     • Automate the Boring Stuff with Python: <a href="https://automatetheboringstuff.com/">Link</a> – Practical automation projects.<br />
