@@ -41,10 +41,10 @@ These resources focus on logic, algorithms, and computer science basics.<br />
     • W3Schools Python Tutorial: <a href="https://www.w3schools.com/python/">Link</a> – Quick hands-on practice.<br />
     • Python books: <a href="https://pythonbooks.org/free-books/">Books here</a><br />
 <hr />
-5. ☕ Java
+5. ☕ Java<br />
     • University of Helsinki Java MOOC: <a href="https://java-programming.mooc.fi/">Link</a> – Widely praised free course.<br />
 <hr />
-6. Hacker
+6. Hacker<br />
     • Tryhackme: <a href="https://tryhackme.com/">tryhackme</a> – Popular Resource for Cyber Security beginners<br />
 <hr />
 7. 🧩 General Programming Practice<br \>
@@ -54,7 +54,7 @@ These resources focus on logic, algorithms, and computer science basics.<br />
     • Codedex: <a href="https://www.codedex.io/home">Link</a> – Similar to Codecademy.<br />
     • Exercism: <a href="https://exercism.org/">Link</a> – Small coding challenges with mentor feedback.<br />
 <hr />
-8. 🛠️ Developer Tools & Courses
+8. 🛠️ Developer Tools & Courses<br />
     • Git Documentation: <a href="https://git-scm.com/doc">Link</a><br />
     • stepik: <a href="https://stepik.org/">Link</a> – Free online courses.<br />
     • Paid courses: The App Brewery on Udemy - <a href="https://www.appbrewery.com/l/products?sortKey=name&sortDirection=asc&page=1">Link to their website where you get redirected then</a><br />
@@ -65,20 +65,20 @@ These resources focus on logic, algorithms, and computer science basics.<br />
         ◦ Coding X (ad-supported)<br />
         ◦ Coddy.tech - <a href="https://coddy.tech/">Link</a>(a really good website for learning how to program, has a Duolingo like energy system)<br />
 <hr />
-9. 🎨 Free & Open-Source Software (Productivity & Creative)
+9. 🎨 Free & Open-Source Software (Productivity & Creative)<br />
     • Office: LibreOffice – <a href="https://www.libreoffice.org/download/download-libreoffice/">Link</a><br />
     • Design: GIMP (<a href="https://www.gimp.org/downloads/">Link</a>), Krita (<a href="https://krita.org/de/download/">Link</a>), Inkscape (<a href="https://inkscape.org/release/inkscape-1.4.2/">Link</a>)<br />
     • Video Editing: DaVinci Resolve (<a href="https://www.blackmagicdesign.com/products/davinciresolve">Link</a>)<br />
     • Knowledge & Sync: Syncthing (<a href="https://syncthing.net/downloads/">Link</a>), Logseq (<a href="https://logseq.com/downloads">Link</a>), Joplin (<a href="https://joplinapp.org/help/install/">Link</a>), Notion (<a href="https://www.notion.com/desktop">Link</a>)<br />
     • Accounting and Management: Akaunting - <a href="https://akaunting.com/">Link</a><br>
 <hr />
-10. ⌨️ Productivity & Typing
+10. ⌨️ Productivity & Typing<br />
     • Keybr (Typing practice): <a href="https://www.keybr.com/">Link</a><br />
 <hr />
-11. 🤖 AI Tutoring Prompt (Optional)
+11. 🤖 AI Tutoring Prompt (Optional)<br />
 If you want to use an AI as a strict Socratic tutor, here’s a ready-to-use prompt:<br \>
-    • Prompt:
-      ```You are a tutor that always responds in the Socratic style. I am a student learner. Your name is CodeTutor. You have a kind and supportive personality. By default, speak extremely concisely and match my technical level of understanding.
+<h3>Prompt</h3>
+```You are a tutor that always responds in the Socratic style. I am a student learner. Your name is CodeTutor. You have a kind and supportive personality. By default, speak extremely concisely and match my technical level of understanding.
 
 If I ask you to create practice problems, immediately ask what programming language and concept I'd like to practice, and then work through each problem one at a time.
 
@@ -119,9 +119,9 @@ If I make an error in my code, do not tell me the fix directly. Instead, ask me 
 1. Read any error messages carefully
 2. Add debug print statements
 3. Break down complex operations into smaller steps
-4. Test with simple inputs first```
-
-✅ How to Use This List
+4. Test with simple inputs <br />
+<hr />
+✅ How to Use This List<br />
     • Step 0 (Mindset): Do Learning How to Learn + Amy Wang/Justin Sung.<br />
     • Step 1 (Fundamentals): Pick CS50x, freeCodeCamp, or Khan Academy.<br />
     • Step 2 (Choose a Language): Start Python (easy syntax) or JavaScript (web).<br />
