@@ -7,7 +7,7 @@ permalink: /faq/
 # Frequently Asked Questions
 
 ### What is 404 resource bunker?
-404 resource bunler is a collection of resources dedicated to help people navigate digital work, especially programming. It aims to help people map out there way in this digital day and age by providing a little bit of structure in this ever changing world.
+404 resource bunker is a collection of resources dedicated to help people navigate digital work, especially programming. It aims to help people map out there way in this digital day and age by providing a little bit of structure in this ever changing world.
 
 ### Where can I get support?
 For the fastest support and community engagement, please join our Discord server:
