@@ -6,8 +6,6 @@ permalink: /faq/
 
 # Frequently Asked Questions
 
-<hr />
-
 ### What is [Your Project Name]?
 [Your Project Name] is a [brief description of your project]. It aims to help people [explain the problem it solves].
 
