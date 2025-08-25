@@ -1,9 +1,9 @@
-import styles from "./PythonPage.module.css";
+import styles from "./LearningMindset.module.css";
 
-function PythonPage() {
+function ProgrammingFundamentalsPage() {
   return (
     <div className={styles.container}>
-      <h2 className={styles.title}>🐍 Python Resources</h2>
+      <h2 className={styles.title}>📚 Programming Fundamentals</h2>
 
       {/* Websites Section */}
       <section className={styles.section}>
@@ -12,31 +12,21 @@ function PythonPage() {
           <li>
             <a
               className={styles.link}
-              href="https://docs.python.org/3/"
+              href="https://cs50.harvard.edu/x/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Official Python Docs
+              Harvard CS50 – Intro to Computer Science
             </a>
           </li>
           <li>
             <a
               className={styles.link}
-              href="https://realpython.com/"
+              href="https://www.geeksforgeeks.org/fundamentals-of-algorithms/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Real Python
-            </a>
-          </li>
-          <li>
-            <a
-              className={styles.link}
-              href="https://pypi.org/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Python Packages (PyPI)
+              GeeksforGeeks – Algorithms & Data Structures
             </a>
           </li>
         </ul>
@@ -49,21 +39,21 @@ function PythonPage() {
           <li>
             <a
               className={styles.link}
-              href="https://www.youtube.com/c/CoreyMSchafer"
+              href="https://www.youtube.com/watch?v=8PopR3x-VMY"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Corey Schafer (Python tutorials)
+              Big O Notation Explained (CS Dojo)
             </a>
           </li>
           <li>
             <a
               className={styles.link}
-              href="https://www.youtube.com/c/TechWithTim"
+              href="https://www.youtube.com/watch?v=6avJHaC3C2U"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Tech With Tim (Python projects & guides)
+              Computer Science Basics – CrashCourse
             </a>
           </li>
         </ul>
@@ -76,21 +66,21 @@ function PythonPage() {
           <li>
             <a
               className={styles.link}
-              href="https://www.udemy.com/course/complete-python-bootcamp/"
+              href="https://www.udemy.com/course/algorithms-and-data-structures-in-python/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Complete Python Bootcamp (Udemy)
+              Algorithms & Data Structures (Udemy)
             </a>
           </li>
           <li>
             <a
               className={styles.link}
-              href="https://www.coursera.org/specializations/python"
+              href="https://www.coursera.org/specializations/cs-fundamentals"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Python for Everybody (Coursera)
+              Computer Science Fundamentals (Coursera)
             </a>
           </li>
         </ul>
@@ -99,4 +89,4 @@ function PythonPage() {
   );
 }
 
-export default PythonPage;
+export default ProgrammingFundamentalsPage;

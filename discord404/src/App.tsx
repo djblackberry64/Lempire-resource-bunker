@@ -5,6 +5,13 @@ import JsPage from "./pages/JavaScript";
 import PhpPage from "./pages/Php";
 import JavaPage from "./pages/Java";
 import CppPage from "./pages/Cpp";
+import LearningMindsetPage from "./pages/LearningMindset";
+import FundamentalsPage from "./pages/ProgrammingFundamentals";
+import HackerPage from "./pages/HackerPage";
+import PracticePage from "./pages/PracticePage";
+import DevToolsPage from "./pages/DevTools";
+import ProductivityPage from "./pages/Productivity";
+import HowToUsePage from "./pages/HowTo";
 
 function App() {
   return (
@@ -23,6 +30,13 @@ function App() {
         <Link to="/pages/php" className="lang-btn">PHP</Link>
         <Link to="/pages/java" className="lang-btn">Java</Link>
         <Link to="/pages/cpp" className="lang-btn">C++</Link>
+        <Link to="/pages/mindset" className="lang-btn">Learning & Mindset</Link>
+        <Link to="/pages/fundamentals" className="lang-btn">Programming Fundamentals</Link>
+        <Link to="/pages/hacker" className="lang-btn">Hacker</Link>
+        <Link to="/pages/practice" className="lang-btn">Practice</Link>
+        <Link to="/pages/devtools" className="lang-btn">Developer Tools</Link>
+        <Link to="/pages/productivity" className="lang-btn">Productivity & Open Source</Link>
+        <Link to="/pages/howtouse" className="lang-btn">How to Use</Link>
       </div>
 
       <Routes>
@@ -31,6 +45,13 @@ function App() {
         <Route path="/pages/php" element={<PhpPage />} />
         <Route path="/pages/java" element={<JavaPage />} />
         <Route path="/pages/cpp" element={<CppPage />} />
+        <Route path="/pages/mindset" element={<LearningMindsetPage />} />
+        <Route path="/pages/fundamentals" element={<FundamentalsPage />} />
+        <Route path="/pages/hacker" element={<HackerPage />} />
+        <Route path="/pages/practice" element={<PracticePage />} />
+        <Route path="/pages/devtools" element={<DevToolsPage />} />
+        <Route path="/pages/productivity" element={<ProductivityPage />} />
+        <Route path="/pages/howtouse" element={<HowToUsePage />} />
       </Routes>
     </div>
   );
