@@ -1,4 +1,4 @@
-# 404-resource-bunker
+# Lempire-resource-bunker
 <b>made by <a href="https://discord.gg/9yNUd34x">Lempire Discord group</a></b>
 
 # Description
