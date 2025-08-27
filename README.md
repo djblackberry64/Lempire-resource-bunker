@@ -124,7 +124,7 @@ If I make an error in my code, do not tell me the fix directly. Instead, ask me 
 ✅ How to Use This List<br />
     • Step 0 (Mindset): Do Learning How to Learn + Amy Wang/Justin Sung.<br />
     • Step 1 (Fundamentals): Pick CS50x, freeCodeCamp, or Khan Academy.<br />
-    • Step 2 (Choose a Language): Start Python (easy syntax) or JavaScript (web). If you don't know what to choose for your goals go to roadmap.sh and see what piques your intterest.<br />
+    • Step 2 (Choose a Language): Start Python (easy syntax) or JavaScript (web).<br />Note: If you don't know what to choose for your goals go to roadmap.sh and see what piques your intterest.<br />
     • Step 3 (Build Projects): The Odin Project, Full Stack Open, or Wes Bos.<br />
     • Step 4 (Level Up): Practice on LeetCode / CodeKata / Exercism.<br />
     • Step 5 (Boost Productivity): Explore the open-source tools.<br />
