@@ -3,7 +3,7 @@
 
 # Description
 A repo focused on refering and collecting good resources for programming and general digital work.
-This is the main information hub repo.
+For more explanations and a more up to date resource list and an faq page visit the main info hub repo for this project under <a href="https://github.com/djblackberry64/Lempire-resource-bunker">Main Info Repo</a>
 =======
 📚 Coding & Productivity Resource Hub
 Welcome! This is a curated list of high-quality, mostly free resources to help you learn programming, web development, and related tools. Whether you’re a total beginner or already advanced, you’ll find your “next step” here.
