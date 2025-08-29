@@ -1,6 +1,6 @@
 # Lempire-resource-bunker
 <b>made by <a href="https://discord.gg/9yNUd34x">Lempire Discord group</a></b>
-
+Notice: For the website please visit the fork of this repo with the same name from my mate Teodor469.
 # Description
 <hr />
 A repo focused on refering and collecting good resources for programming and general digital work.
