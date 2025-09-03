@@ -1,83 +1,152 @@
 # Lempire-resource-bunker
 <b>made by <a href="https://discord.gg/9yNUd34x">Lempire Discord group</a></b>
-Notice: For the website please visit the fork of this repo with the same name from my mate Teodor469.
+
 # Description
-<hr />
-A repo focused on refering and collecting good resources for programming and general digital work.
-=======
+A repo focused on refering and collecting good resources for programming and general digital work
+
 📚 Coding & Productivity Resource Hub
 Welcome! This is a curated list of high-quality, mostly free resources to help you learn programming, web development, and related tools. Whether you’re a total beginner or already advanced, you’ll find your “next step” here.
 
 1. 🚀 Learning & Mindset (Before You Code)<br />
-    • Learning How to Learn (Coursera, free via Audit): <a href="https://www.coursera.org/learn/learning-how-to-learn/">Link</a> – Must-have meta-skill.<br />
-    • Motivation & Mindset (TOP lesson): <a href="https://www.theodinproject.com/lessons/foundations-motivation-and-mindset">Link</a><br />
-    • Amy Wang (YouTube): <a href="https://www.youtube.com/@AmyWang">Link</a> – Study strategies & productivity.<br />
-    • Justin Sung (YouTube): <a href="https://www.youtube.com/@JustinSung">Link</a> – Evidence-based learning efficiency.<br />
-    • Self-Study Talks: <a href="https://www.youtube.com/watch?v=NLpYWLGkIII&list=WL&index=5&t=24s">Study guide</a> | <a href="https://www.youtube.com/watch?v=qHwIiwjrT1I">University-level course intro</a><br />
+<ul>
+    <li>Learning How to Learn (Coursera, free via Audit): <a href="https://www.coursera.org/learn/learning-how-to-learn/">Link</a> – Must-have meta-skill.</li>
+    <li>Motivation & Mindset (TOP lesson): <a href="https://www.theodinproject.com/lessons/foundations-motivation-and-mindset">Link</a></li>
+    <li>Amy Wang (YouTube): <a href="https://www.youtube.com/@AmyWang">Link</a> – Study strategies & productivity.</li>
+    <li>Justin Sung (YouTube): <a href="https://www.youtube.com/@JustinSung">Link</a> – Evidence-based learning efficiency.</li>
+    <li>Self-Study Talks: <a href="https://www.youtube.com/watch?v=NLpYWLGkIII&list=WL&index=5&t=24s">Study guide</a> | <a href="https://www.youtube.com/watch?v=qHwIiwjrT1I">University-level course intro</a></li>
+    <li>Orientation: <a href="https://roadmap.sh/">Link to roadmaps</a></li>
+</ul>
 <hr />
 2. 🧑‍💻 Programming Fundamentals (Core Concepts)<br />
-These resources focus on logic, algorithms, and computer science basics.<br />
-    • Harvard CS50x (edX): <a href="https://www.edx.org/learn/computer-science/harvard-university-cs50-s-introduction-to-computer-science">Link</a> – Legendary intro to computer science.<br />
-    • freeCodeCamp: <a href="https://www.freecodecamp.org/">Link</a> – Interactive platform with CS fundamentals + projects.<br />
-    • Khan Academy – Computer Programming: <a href="https://www.khanacademy.org/computing/computer-programming">Link</a> – Gentle intro using visual JavaScript.<br />
-    • GeeksforGeeks Fundamentals: <a href="https://www.geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/">Link</a> – Encyclopedia-style explanations.<br />
+These resources focus on logic, algorithms, and computer science basics:<br />
+<ul>
+    <li>Harvard CS50x (edX): <a href="https://www.edx.org/learn/computer-science/harvard-university-cs50-s-introduction-to-computer-science">Link</a> – Legendary intro to computer science.</li>
+    <li>freeCodeCamp: <a href="https://www.freecodecamp.org/">Link</a> – Interactive platform with CS fundamentals + projects.</li>
+    <li>Khan Academy – Computer Programming: <a href="https://www.khanacademy.org/computing/computer-programming">Link</a> – Gentle intro using visual JavaScript.</li>
+    <li>GeeksforGeeks Fundamentals: <a href="https://www.geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/">Link</a> – Encyclopedia-style explanations.</li>
+</ul>
 <hr />
-3. 🌐 Web Development & JavaScript<br/>
-    • The Odin Project (Full Curriculum): <a href="https://www.theodinproject.com/dashboard">Link</a> – Project-based fullstack learning.<br />
-    • Full Stack Open (Helsinki): <a href="https://fullstackopen.com/en/">Link</a> – React, Node, GraphQL, TS.<br />
-    • MDN JavaScript Guide: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide">Link</a> – Definitive reference.<br />
-    • JavaScript.info: <a href="https://javascript.info/">Link</a> – Modern, thorough tutorial.<br />
-    • freeCodeCamp – JavaScript Algorithms & Data Structures: <a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/">Link</a> – 300h course.<br />
-    • Wes Bos – JavaScript30: <a href="https://javascript30.com/">Link</a> – Build 30 small JS projects in 30 days.<br />
-    • Traversy Media (YouTube): <a href="https://www.youtube.com/@TraversyMedia">Link</a> – Crash courses + project tutorials.<br />
-    • w3schools (Quick Reference): <a href="https://www.w3schools.com/">Link</a><br />
+3. 🌐 Web Development & JavaScript<br />
+    <li>The Odin Project (Full Curriculum): <a href="https://www.theodinproject.com/dashboard">Link</a> – Project-based fullstack learning.</li>
+    <li>Full Stack Open (Helsinki): <a href="https://fullstackopen.com/en/">Link</a> – React, Node, GraphQL, TS.</li>
+    <li>MDN JavaScript Guide: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide">Link</a> – Definitive reference.</li>
+    <li>JavaScript.info: <a href="https://javascript.info/">Link</a> – Modern, thorough tutorial.</li>
+    <li>freeCodeCamp – JavaScript Algorithms & Data Structures: <a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/">Link</a> – 300h course.</li>
+    <li>Wes Bos – JavaScript30: <a href="https://javascript30.com/">Link</a> – Build 30 small JS projects in 30 days.</li>
+    <li>Traversy Media (YouTube): <a href="https://www.youtube.com/@TraversyMedia">Link</a> – Crash courses + project tutorials.</li>
+    <li>w3schools (Quick Reference. Also under section 9 for general documentation and tutorials): <a href="https://www.w3schools.com/">Link</a></li>
 <hr />
 4. 🐍 Python<br/>
-    • University of Helsinki Python MOOC: <a href="https://programming-25.mooc.fi/">Link</a> – University-level.<br />
-    • Python for Everybody (PY4E): <a href="https://www.py4e.com/">Link</a> – Beginner-friendly, free book + course.<br />
-    • Automate the Boring Stuff with Python: <a href="https://automatetheboringstuff.com/">Link</a> – Practical automation projects.<br />
-    • Official Python Tutorial: <a href="https://docs.python.org/3/tutorial/index.html">Link</a> – Authoritative.<br />
-    • Real Python: <a href="https://realpython.com/">Link</a> – High-quality articles.<br />
-    • Corey Schafer’s Python Playlist (YT): <a href="https://www.youtube.com/playlist?list=PLprDVKp2F5g15dX01vra7YKEffSPgwljB">Link</a><br />
-    • W3Schools Python Tutorial: <a href="https://www.w3schools.com/python/">Link</a> – Quick hands-on practice.<br />
-    • Python books: <a href="https://pythonbooks.org/free-books/">Books here</a><br />
+<ul>
+    <li>University of Helsinki Python MOOC: <a href="https://programming-25.mooc.fi/">Link</a> – University-level.</li>
+    <li>Python for Everybody (PY4E): <a href="https://www.py4e.com/">Link</a> – Beginner-friendly, free book + course.</li>
+    <li>Automate the Boring Stuff with Python: <a href="https://automatetheboringstuff.com/">Link</a> – Practical automation projects.</li>
+    <li>Official Python Tutorial: <a href="https://docs.python.org/3/tutorial/index.html">Link</a> – Authoritative.</li>
+    <li>Real Python: <a href="https://realpython.com/">Link</a> – High-quality articles.</li>
+    <li>Corey Schafer’s Python Playlist (YT): <a href="https://www.youtube.com/playlist?list=PLprDVKp2F5g15dX01vra7YKEffSPgwljB">Link</a></li>
+    <li>W3Schools Python Tutorial: <a href="https://www.w3schools.com/python/">Link</a> – Quick hands-on practice.</li>
+    <li>Python books: <a href="https://pythonbooks.org/free-books/">Books here</a></li>
+</ul>
 <hr />
 5. ☕ Java<br />
-    • University of Helsinki Java MOOC: <a href="https://java-programming.mooc.fi/">Link</a> – Widely praised free course.<br />
+<ul>
+    <li>University of Helsinki Java MOOC: <a href="https://java-programming.mooc.fi/">Link</a> – Widely praised free course.</li>
+</ul>
 <hr />
-6. Hacker<br />
-    • Tryhackme: <a href="https://tryhackme.com/">tryhackme</a> – Popular Resource for Cyber Security beginners<br />
+6. Cybersecurity<br />
+<ul>
+    <li>Tryhackme: <a href="https://tryhackme.com/">tryhackme</a> – Popular Resource for Cyber Security beginners</li>
+</ul>
 <hr />
-7. 🧩 General Programming Practice<br \>
-    • CodeKata: <a href="http://codekata.com/">Link but be ware of no HTTPS</a> – Short practice problems.<br />
-    • LeetCode: <a href="https://leetcode.com/">Link</a> – Interview prep + problem-solving.<br />
-    • Codecademy: <a href="https://www.codecademy.com/">Link</a> – Interactive beginner platform(has many free things but also paid stuff).<br />
-    • Codedex: <a href="https://www.codedex.io/home">Link</a> – Similar to Codecademy.<br />
-    • Exercism: <a href="https://exercism.org/">Link</a> – Small coding challenges with mentor feedback.<br />
+7. Game Development<br />
+<ul>
+    <li>Python:<br />
+        <ul>
+            <li><a href="https://www.youtube.com/@ClearCode">Clear Code</a></li>
+        </ul>
+    </li>
+    <li>C++:<br />
+        <ul>
+            <li>More resources to be added</li>
+        </ul>
+    </li>
+    <li>C#:<br />
+        <ul>
+            <li>More resources to be added</li>
+        </ul>
+    </li>
+</ul>
 <hr />
-8. 🛠️ Developer Tools & Courses<br />
-    • Git Documentation: <a href="https://git-scm.com/doc">Link</a><br />
-    • stepik: <a href="https://stepik.org/">Link</a> – Free online courses.<br />
-    • Paid courses: The App Brewery on Udemy - <a href="https://www.appbrewery.com/l/products?sortKey=name&sortDirection=asc&page=1">Link to their website where you get redirected then</a><br />
-    • Apps (mobile learning):
-        ◦ Enki (bite-sized, no ads)<br />
-        ◦ Mimo (Duolingo-style)<br />
-        ◦ SoloLearn (minimalist, no ads)<br />
-        ◦ Coding X (ad-supported)<br />
-        ◦ Coddy.tech - <a href="https://coddy.tech/">Link</a>(a really good website for learning how to program, has a Duolingo like energy system)<br />
+8. 🧩 General Programming Practice<br />
+<ul>
+    <li>CodeKata: <a href="http://codekata.com/">Link but be ware of no HTTPS</a> – Short practice problems.</li>
+    <li>LeetCode: <a href="https://leetcode.com/">Link</a> – Interview prep + problem-solving.</li>
+    <li>Codecademy: <a href="https://www.codecademy.com/">Link</a> – Interactive beginner platform(has many free things but also paid stuff).</li>
+    <li>Codedex: <a href="https://www.codedex.io/home">Link</a> – Similar to Codecademy.</li>
+    <li>Exercism: <a href="https://exercism.org/">Link</a> – Small coding challenges with mentor feedback.</li>
+</ul>
 <hr />
-9. 🎨 Free & Open-Source Software (Productivity & Creative)<br />
-    • Office: LibreOffice – <a href="https://www.libreoffice.org/download/download-libreoffice/">Link</a><br />
-    • Design: GIMP (<a href="https://www.gimp.org/downloads/">Link</a>), Krita (<a href="https://krita.org/de/download/">Link</a>), Inkscape (<a href="https://inkscape.org/release/inkscape-1.4.2/">Link</a>)<br />
-    • Video Editing: DaVinci Resolve (<a href="https://www.blackmagicdesign.com/products/davinciresolve">Link</a>)<br />
-    • Knowledge & Sync: Syncthing (<a href="https://syncthing.net/downloads/">Link</a>), Logseq (<a href="https://logseq.com/downloads">Link</a>), Joplin (<a href="https://joplinapp.org/help/install/">Link</a>), Notion (<a href="https://www.notion.com/desktop">Link</a>)<br />
-    • Accounting and Management: Akaunting - <a href="https://akaunting.com/">Link</a><br>
+9. 🛠️ Developer Tools & Courses/Websites<br />
+<ul>
+    <li>Git Documentation: <a href="https://git-scm.com/doc">Link</a></li>
+    <li>W3schools(perfect for quick references and tutorials in variuos languages): <a href="https://www.w3schools.com/">W3schools</a></li>
+    <li>stepik: <a href="https://stepik.org/">Link</a> – Free online courses.</li>
+    <li>Paid courses: The App Brewery on Udemy - <a href="https://www.appbrewery.com/l/products?sortKey=name&sortDirection=asc&page=1">Link to their website where you get redirected then</a></li>
+    <ul>
+    Apps (mobile learning and or editing):<br />
+        <li>Enki (bite-sized, no ads)</li>
+        <li>Mimo (Duolingo-style)</li>
+        <li>SoloLearn (minimalist, no ads)</li>
+        <li>Coding X (ad-supported)</li>
+        <li>Coddy.tech - <a href="https://coddy.tech/">Link</a>(a really good website for learning how to program, has a Duolingo like energy system)</li>
+        <li>Spck Editor / Git Client - <a href="https://play.google.com/store/apps/details?id=io.spck&pli=1">Link to Google Play Store</a></li>
+        <li><a href="https://play.google.com/store/apps/details?id=com.foxdebug.acodefree">Acode - Link to Google Play Store</a></li>
+        <li><a href="https://github.com/termux/termux-app">Termux - Link to GitHub repo</a></li>
+    </ul>
+</ul>
 <hr />
-10. ⌨️ Productivity & Typing<br />
-    • Keybr (Typing practice): <a href="https://www.keybr.com/">Link</a><br />
+
+10. 🎨 Free & Open-Source Software (Productivity & Creative)<br />
+<ul>
+    <li>Office: LibreOffice – <a href="https://www.libreoffice.org/download/download-libreoffice/">Link</a></li>
+    <li>Design:<br />
+        <ul>
+            <li>GIMP (<a href="https://www.gimp.org/downloads/">Link</a>)</li>
+            <li>Krita (<a href="https://krita.org/de/download/">Link</a>)</li>
+            <li>Inkscape (<a href="https://inkscape.org/release/inkscape-1.4.2/">Link</a>)</li>
+        </ul>
+    </li>
+    <li>
+        <ul>
+            <li>Video Editing: DaVinci Resolve (<a href="https://www.blackmagicdesign.com/products/davinciresolve">Link</a>)</li>
+        </ul>
+    </li>
+    <li>Audio Editing:
+        <ul>
+            <li><a href="https://lmms.io/download">Linux Multi Media Studio(LMMS good as an basic DAW)</a></li>
+            <li><a href="https://musescore.org/de/download">MuseScore(good for writing notes, supports many export types)</a></li>
+            <li><a href="https://www.audacityteam.org/">Audacity(good for recording and basic editing)</a></li>
+            <li><a href="https://www.cakewalk.com/">Cakewalk(decent DAW)</a>
+        </ul>
+    </li>
+    <li>Knowledge & Sync:<br />
+        <ul>
+            <li>Syncthing (<a href="https://syncthing.net/downloads/">Link</a>)</li>
+            <li>Logseq (<a href="https://logseq.com/downloads">Link</a>)</li>
+            <li>Joplin (<a href="https://joplinapp.org/help/install/">Link</a>)</li>
+            <li>Notion (<a href="https://www.notion.com/desktop">Link</a>)</li>
+        </ul>
+    </li>
+    <li>Accounting and Management: Akaunting - <a href="https://akaunting.com/">Link</a></li>
+</ul>
 <hr />
-11. 🤖 AI Tutoring Prompt (Optional)<br />
-If you want to use an AI as a strict Socratic tutor, here’s a ready-to-use prompt:<br \>
+11. ⌨️ Productivity & Typing<br />
+<ul>
+    <li>Keybr (Typing practice): <a href="https://www.keybr.com/">Link</a></li>
+</ul>
+<hr />
+12. 🤖 AI Tutoring Prompt (Optional)<br />
+If you want to use an AI as a strict Socratic tutor, here’s a ready-to-use prompt:<br />
 <h3>Prompt</h3>
 ```You are a tutor that always responds in the Socratic style. I am a student learner. Your name is CodeTutor. You have a kind and supportive personality. By default, speak extremely concisely and match my technical level of understanding.
 
@@ -123,12 +192,15 @@ If I make an error in my code, do not tell me the fix directly. Instead, ask me 
 4. Test with simple inputs <br />
 <hr />
 ✅ How to Use This List<br />
-    • Step 0 (Mindset): Do Learning How to Learn + Amy Wang/Justin Sung.<br />
-    • Step 1 (Fundamentals): Pick CS50x, freeCodeCamp, or Khan Academy.<br />
-    • Step 2 (Choose a Language): Start Python (easy syntax) or JavaScript (web).<br />Note: If you don't know what to choose for your goals go to roadmap.sh and see what piques your intterest.<br />
-    • Step 3 (Build Projects): The Odin Project, Full Stack Open, or Wes Bos.<br />
-    • Step 4 (Level Up): Practice on LeetCode / CodeKata / Exercism.<br />
-    • Step 5 (Boost Productivity): Explore the open-source tools.<br />
+<ul>
+    <li>Step 0 (Mindset): Do Learning How to Learn + Amy Wang/Justin Sung.</li>
+    <li>Step 1 (Fundamentals): Pick CS50x, freeCodeCamp, or Khan Academy.</li>
+    <li>Step 2 (Choose a Language): Start Python (easy syntax) or JavaScript (web).</li>
+    <li>Step 3 (Build Projects): The Odin Project, Full Stack Open, or Wes Bos.</li>
+    <li>Step 4 (Level Up): Practice on LeetCode / CodeKata / Exercism.</li>
+    <li>Step 5 (Boost Productivity): Explore the open-source tools.</li>
+</ul>
+If you have any questions feel free to check out our <a href="https://github.com/djblackberry64/Lempire-resource-bunker/blob/main/FAQ.md">FAQ</a> and our <a href="https://discord.gg/EPuMeMvW">Discord</a>
 <hr />
 <h3>License</h3><br />
 - Code: <a href="https://github.com/djblackberry64/404-resource-bunker/blob/main/LICENSE-CODE">Apache 2.0</a><br />
