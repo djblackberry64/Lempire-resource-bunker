@@ -1,0 +1,1 @@
+This is an overview file of some of the resource files we have for some specific topics from installations, getting started, CLI and making a script executable and more! More content on the way so be sure to look for updates! As always, don't get sour!
