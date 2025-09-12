@@ -139,6 +139,20 @@ These resources focus on logic, algorithms, and computer science basics:<br />
         </ul>
     </li>
     <li>Accounting and Management: Akaunting - <a href="https://akaunting.com/">Link</a></li>
+    <li>VM Software:<br />
+        <ul>
+            <li>Windows:<br />
+                <ul>
+                    <li>VM Ware Worstation Pro - <a href="https://www.chip.de/downloads/c1_downloads_auswahl_15799156.html?t=1757696587&v=3600&s=00f624ff6c720b782ba0557d73fea491">Link to software - just clck download server chip online, wait and install</a></li>
+                </ul>
+            </li>
+            <li>Mac:<br />
+                <ul>
+                    <li>VM Ware Fusion - <a href="https://www.chip.de/downloads/c1_downloads_auswahl_56651254.html?t=1757697778&v=3600&s=6a265177ec07364fc751543c2ec0b10b">Link to software - just clck download server chip online, wait and install</a></li>
+                </ul>
+            </li>
+        </ul>
+    </li>
 </ul>
 <hr />
 11. ⌨️ Productivity & Typing<br />
