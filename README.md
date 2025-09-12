@@ -56,6 +56,7 @@ These resources focus on logic, algorithms, and computer science basics:<br />
 6. Cybersecurity<br />
 <ul>
     <li>Tryhackme: <a href="https://tryhackme.com/">tryhackme</a> – Popular Resource for Cyber Security beginners</li>
+    <li>Cisco site: <a href="https://www.netacad.com/">You can learn networking, Cybersecurity, Python, C++ and JavaScript</a></li>
 </ul>
 <hr />
 7. Game Development<br />
