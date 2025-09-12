@@ -51,6 +51,8 @@ These resources focus on logic, algorithms, and computer science basics:<br />
 5. ☕ Java<br />
 <ul>
     <li>University of Helsinki Java MOOC: <a href="https://java-programming.mooc.fi/">Link</a> – Widely praised free course.</li>
+    <li>Baeldung: <a href="https://www.baeldung.com/java-tutorial">Learn Java, Kotlin, Scala, SQL, CS, Ops and Linux. Click on the hamburger menu and look under Baeldung sites to find all the different things.</a></li>
+    <li>Java Docs: <a href="https://docs.oracle.com/en/java/javase/24/">for JDK24 from Oracle</a></li>
 </ul>
 <hr />
 6. Cybersecurity<br />
