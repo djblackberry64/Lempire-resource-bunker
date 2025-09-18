@@ -27,6 +27,7 @@ These resources focus on logic, algorithms, and computer science basics:<br />
 </ul>
 <hr />
 3. 🌐 Web Development & JavaScript<br />
+<ul>
     <li>The Odin Project (Full Curriculum): <a href="https://www.theodinproject.com/dashboard">Link</a> – Project-based fullstack learning.</li>
     <li>Full Stack Open (Helsinki): <a href="https://fullstackopen.com/en/">Link</a> – React, Node, GraphQL, TS.</li>
     <li>MDN JavaScript Guide: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide">Link</a> – Definitive reference.</li>
@@ -35,6 +36,7 @@ These resources focus on logic, algorithms, and computer science basics:<br />
     <li>Wes Bos – JavaScript30: <a href="https://javascript30.com/">Link</a> – Build 30 small JS projects in 30 days.</li>
     <li>Traversy Media (YouTube): <a href="https://www.youtube.com/@TraversyMedia">Link</a> – Crash courses + project tutorials.</li>
     <li>w3schools (Quick Reference. Also under section 9 for general documentation and tutorials): <a href="https://www.w3schools.com/">Link</a></li>
+</ul>
 <hr />
 4. 🐍 Python<br/>
 <ul>
