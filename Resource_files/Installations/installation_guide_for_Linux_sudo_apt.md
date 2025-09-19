@@ -82,8 +82,8 @@ sudo apt install cmake
 sudo apt install ninja-build
 sudo apt install libgtk-3-dev
 For Android studio use
-the already preinstalled version (check with snap "android-studio")
-Or just search for it in your distributions software store and download from there if you don't have it.
+1. the already preinstalled version (check with snap "android-studio")
+2. Or just search for it in your distributions software store and download from there if you don't have it.
 
 ```
 
