@@ -75,6 +75,14 @@ echo 'export PATH="$HOME/flutter/bin:$PATH"' >> ~/.bashrc
 source ~/.bashrc
 
 flutter doctor
+After the analysis from flutter doctor you might want to run the following commands
+sudo pacman -S --needed cmake
+sudo pacman -S --needed ninja-build
+sudo pacman -S --needed libgtk-3-dev
+For Android studio use
+1. the already preinstalled version (check with snap "android-studio")
+2. Or just search for it in your distributions software store and download from there if you don't have it.
+
 ```
 
 * Installs Flutter SDK and adds it to PATH.
