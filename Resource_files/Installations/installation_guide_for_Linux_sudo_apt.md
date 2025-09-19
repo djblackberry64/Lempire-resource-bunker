@@ -77,6 +77,14 @@ echo 'export PATH="$HOME/flutter/bin:$PATH"' >> ~/.bashrc
 source ~/.bashrc
 
 flutter doctor
+After the analysis from flutter doctor you might want to run the following commands
+sudo apt install cmake
+sudo apt install ninja-build
+sudo apt install libgtk-3-dev
+For Android studio use
+the already preinstalled version (check with snap "android-studio")
+Or just search for it in your distributions software store and download from there if you don't have it.
+
 ```
 
 * Installs Flutter SDK and adds it to PATH.
@@ -168,7 +176,4 @@ sudo apt install -y clang gdb lldb zip unzip
 9. Set up GitHub authentication (SSH recommended)
 
 ---
-
-If you want, I can also make a **one-line “all-in-one script”** that installs everything automatically on your VM so you don’t have to copy-paste dozens of commands.
-
-Do you want me to do that?
+For VSCode please follow the turtorial from The Odin project linked <a href="https://www.theodinproject.com/lessons/foundations-text-editors">here</a>
