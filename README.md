@@ -219,7 +219,7 @@ If I make an error in my code, do not tell me the fix directly. Instead, ask me 
     <li>Step 4 (Level Up): Practice on LeetCode / CodeKata / Exercism.</li>
     <li>Step 5 (Boost Productivity): Explore the open-source tools.</li>
 </ul>
-If you have any questions feel free to check out our <a href="https://github.com/djblackberry64/Lempire-resource-bunker/blob/main/FAQ.md">FAQ</a> and our <a href="https://discord.gg/EPuMeMvW">Discord</a>
+If you have any questions feel free to check out our <a href="https://github.com/djblackberry64/Lempire-resource-bunker/blob/main/FAQ.md">FAQ</a> and our <a href="https://discord.gg/UHgAmk6zEa">Discord</a>
 <hr />
 <h3>License</h3><br />
 - Code: <a href="https://github.com/djblackberry64/404-resource-bunker/blob/main/LICENSE-CODE">Apache 2.0</a><br />
