@@ -263,6 +263,9 @@ setx PATH "$($env:PATH);C:\Tools"
 
 > ⚠️ This edits the **user** PATH permanently, but doesn’t affect current shells — open a new one to see the change.
 
+> ⚠️ Note on PATH editing:
+ Using setx appends to your user PATH permanently but doesn’t check for duplicates. Running it multiple times may cause repeated entries. If unsure, edit PATH via GUI or manually verify to keep it clean.
+
 ---
 
 ### 4. 🚀 Test it
