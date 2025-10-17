@@ -128,7 +128,7 @@ runcode
 Many Linux distributions include `~/bin` in your PATH by default.
 
 ```bash
-mkdir -p ~/bin---
+mkdir -p ~/bin
 
 
 
