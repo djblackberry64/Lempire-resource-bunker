@@ -2,20 +2,32 @@ Nice — here’s a clean, **English**, step-by-step guide so `runcode` becomes 
 
 ---
 
-# Linux / macOS (Bash / WSL) — make `runcode` available everywhere
+## ✅ Final: Clean, Professional Guide — Make `runcode` a Global Command on Linux/macOS/WSL
 
-### 1) Put the script in a folder
+> This guide walks you through making a script (`runcode`) behave like a real command, available everywhere on your system. It covers both the **quick setup** and the **robust CLI-style setup**.
 
-Example: use `~/Tools`
+---
+
+### 🖥️ For: Linux / macOS / WSL (Bash or Zsh)
+
+---
+
+### 1. 🗂️ Put the script in a tools folder
+
+Create a folder (if it doesn’t exist) and move your script there:
 
 ```bash
 mkdir -p ~/Tools
-# copy or save your script to ~/Tools/runcode  (recommended: no .sh in the name)
+mv /path/to/your/script.sh ~/Tools/runcode
 ```
 
-### 2) Ensure a correct shebang and Unix line endings
+> ✅ Rename the file to just `runcode` — no `.sh` for cleaner CLI usage.
 
-Open the file and ensure the first line is either:
+---
+
+### 2. ⚙️ Set the correct shebang and line endings
+
+**Edit the first line** of `~/Tools/runcode` and make sure it has one of these:
 
 ```bash
 #!/usr/bin/env bash
@@ -23,61 +35,106 @@ Open the file and ensure the first line is either:
 #!/bin/bash
 ```
 
-If you copied it from Windows, convert CRLF → LF:
+**Fix Windows line endings** if you copied it from Windows:
 
 ```bash
-# if dos2unix is available:
+# If dos2unix is installed:
 dos2unix ~/Tools/runcode
-# or with sed:
+
+# Or use sed:
 sed -i 's/\r$//' ~/Tools/runcode
 ```
 
-### 3) Make the script executable
+---
+
+### 3. ✅ Make the script executable
 
 ```bash
 chmod +x ~/Tools/runcode
-ls -l ~/Tools/runcode   # should show -rwxr-xr-x or similar
 ```
 
-### 4A) Quick: add a permanent alias (easy, user-only)
+You can check it:
 
-Append alias to `~/.bashrc` (or `~/.zshrc` if you use zsh):
+```bash
+ls -l ~/Tools/runcode
+# Should show something like: -rwxr-xr-x
+```
+
+---
+
+### 4. 🚀 Make `runcode` available system-wide
+
+#### Option A: 🧪 Quick (user-only): Add an alias
 
 ```bash
 echo 'alias runcode="$HOME/Tools/runcode"' >> ~/.bashrc
 source ~/.bashrc
 ```
 
-Now `runcode` works immediately in interactive shells.
+> ✅ Works immediately in interactive terminals
+> ❌ Does **not** work in scripts or child processes
 
-### 4B) Alternative (recommended if you want it like a real CLI): add Tools to PATH
+---
 
-Append this to `~/.bashrc` (or `~/.profile` / `~/.zshrc` as you prefer):
+#### Option B (Recommended): Add `~/Tools` to your PATH
+
+This makes anything in `~/Tools` available like a native command.
 
 ```bash
 echo 'export PATH="$HOME/Tools:$PATH"' >> ~/.bashrc
 source ~/.bashrc
 ```
 
-Or move the script to a standard executable folder:
+> ✅ Works in all shells and scripts
+> 🔄 Open a new terminal or re-source your shell to apply changes
+
+---
+
+#### Option C (System-wide): Move the script to a standard bin directory
 
 ```bash
 sudo mv ~/Tools/runcode /usr/local/bin/runcode
-# (now /usr/local/bin is usually already in PATH)
 ```
 
-### 5) Test
+> `/usr/local/bin` is already in your system PATH
+> ✅ Works for all users (if needed)
+
+---
+
+### 5. 🧪 Test it!
 
 ```bash
-which runcode        # should print path, e.g. /home/you/Tools/runcode or /usr/local/bin/runcode
-runcode /path/to/file.java
+which runcode   # should return something like: /usr/local/bin/runcode or /home/you/Tools/runcode
+runcode         # runs your script
 ```
 
-### Quick troubleshooting checklist
+---
 
-* `command not found` → PATH/alias not loaded; open a new terminal or `source ~/.bashrc`.
-* `Permission denied` → forgot `chmod +x`.
-* `bad interpreter: No such file or directory` → wrong shebang or CRLFs still present (`dos2unix`).
+### 🔍 Troubleshooting
+
+| Problem                         | Solution                                                                                                                     |
+| ------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| `command not found`             | Restart terminal or `source ~/.bashrc`. Check if PATH or alias is set.                                                       |
+| `Permission denied`             | Run `chmod +x ~/Tools/runcode`                                                                                               |
+| `bad interpreter: No such file` | Fix the shebang and convert Windows line endings (`dos2unix`)                                                                |
+| File "disappears" after moving  | If you accidentally created `/usr/local/bin/runcode` as a **directory**, remove with:<br>`sudo rm -r /usr/local/bin/runcode` |
+
+---
+
+### 💡 Pro Tip (Optional): Create a `~/bin` folder for personal scripts
+
+If you prefer, use `~/bin` (many Linux distros already include it in your PATH):
+
+```bash
+mkdir -p ~/bin
+mv ~/Tools/runcode ~/bin/runcode
+```
+
+No need to modify PATH if `~/bin` is already included.
+
+---
+
+Let me know if you'd like this exported as a **Markdown**, **PDF**, or **snippet** for reuse in a blog or internal doc.
 
 ---
 
