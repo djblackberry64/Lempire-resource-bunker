@@ -131,100 +131,177 @@ mv ~/Tools/runcode ~/bin/runcode
 ```
 
 No need to modify PATH if `~/bin` is already included.
+---
+
+Yes, your **Windows (PowerShell)** guide is already very good — and yes, **it will work** as written. It follows standard best practices for making a PowerShell script feel like a real command on Windows. But we can make it:
+
+* **Cleaner and slightly more accurate**
+* **More consistent with your Linux/macOS version**
+* **Include key caveats explicitly**
+
+Below is your polished and corrected version, ready to be included in your full cross-platform setup documentation.
 
 ---
 
-Let me know if you'd like this exported as a **Markdown**, **PDF**, or **snippet** for reuse in a blog or internal doc.
+## ✅ Windows (PowerShell) — Make `runcode` Feel Like a Native Command
+
+There are two good approaches:
+
+* **Option A**: Use a persistent PowerShell alias (**easy**, works in interactive PowerShell)
+* **Option B (Recommended)**: Create a tiny `.cmd` wrapper to support **cmd, scripts, tasks, and cross-shell use**
 
 ---
 
-# Windows (PowerShell) — make `runcode` feel native
+### 0. 💾 Save the script
 
-There are two common approaches: **(A)** use a persistent PowerShell alias (easy) or **(B)** create a tiny `runcode.cmd` wrapper so you can type `runcode` anywhere (best for cmd / scripts / cross-shell).
-
-### 0) Save the script
-
-Save the PowerShell script as:
+Save your PowerShell script as:
 
 ```
 C:\Tools\runcode.ps1
 ```
 
-(Use `C:\Tools` or any folder you prefer.)
+> ✅ You can use another folder, but keep the path short and simple (e.g., no spaces).
 
-### 1) Allow local script execution (one-time)
+---
 
-Open PowerShell **as your user** and run:
+### 1. 🔐 Allow local scripts to run (one-time setup)
+
+Open **PowerShell as your user** (not admin), and run:
 
 ```powershell
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 ```
 
-Confirm `Y` if prompted. This lets local signed or local scripts run.
+Confirm with `Y`.
 
-### 2A) Easy permanent alias (PowerShell profile)
+> 🛡️ This allows local scripts to run — but still blocks untrusted remote scripts unless signed.
 
-Make a permanent alias by editing your PowerShell profile:
+---
+
+### 2A. 🧪 Option A: Persistent alias (PowerShell only)
+
+Add an alias to your PowerShell profile:
 
 ```powershell
-# create profile if missing
+# Create profile if it doesn't exist
 if (!(Test-Path -Path $PROFILE)) { New-Item -ItemType File -Path $PROFILE -Force }
 
-# open in Notepad (or your editor)
+# Open it in Notepad (or your preferred editor)
 notepad $PROFILE
 ```
 
-Add this line to the opened file:
+Then add this line:
 
 ```powershell
 Set-Alias runcode "C:\Tools\runcode.ps1"
 ```
 
-Save, close, then open a **new PowerShell** session. `runcode` will now run.
+Save, close, then **restart PowerShell**.
 
-> Note: `Set-Alias` is only available to interactive sessions — which is exactly what you want for a convenient CLI.
+✅ Now you can run `runcode` in PowerShell.
 
-### 2B) Best: CMD wrapper so `runcode` works everywhere (cmd, PS, tasks)
+❌ Doesn’t work in **cmd**, **task scheduler**, or **scripts**. For that, use Option B.
 
-Create `C:\Tools\runcode.cmd` with this content:
+---
 
-```bat
+### 2B. ✅ Option B (Recommended): CMD wrapper (works everywhere)
+
+Create a new file:
+
+```
+C:\Tools\runcode.cmd
+```
+
+Put this content inside:
+
+```cmd
 @echo off
 powershell -ExecutionPolicy Bypass -File "C:\Tools\runcode.ps1" %*
 ```
 
-Because `.cmd`/`.bat` are recognized by Windows shells, typing `runcode arg1 arg2` will run your PS script with arguments.
+This wrapper makes `runcode` work in:
 
-### 3) Add `C:\Tools` to PATH (so you can type `runcode` anywhere)
+* PowerShell
+* Command Prompt (cmd)
+* Windows Run box
+* Scripts
+* Task Scheduler
+* Dev tools
 
-**Via GUI** (recommended for safety):
+---
 
-* Start → “Environment Variables” → Edit user variables → Path → New → `C:\Tools` → OK → open a new shell.
+### 3. 📦 Add `C:\Tools` to your PATH (once)
 
-**Or via PowerShell:**
+#### 🧠 Option 1: GUI (recommended)
+
+1. Press **Win + S**, type: `environment variables`
+2. Click **Edit the system environment variables**
+3. Under "User variables", find **Path** → Edit → **New**
+4. Add:
+
+```
+C:\Tools
+```
+
+5. Click OK on all dialogs, then **open a new PowerShell or CMD window**
+
+#### ⚙️ Option 2: CLI (PowerShell)
 
 ```powershell
 setx PATH "$($env:PATH);C:\Tools"
 ```
 
-(You must open a **new** console for the change to be visible.)
+> ⚠️ This edits the **user** PATH permanently, but doesn’t affect current shells — open a new one to see the change.
 
-### 4) Test
+---
 
-Open a **new PowerShell or CMD** window:
+### 4. 🚀 Test it
 
 ```powershell
 runcode "C:\path\to\your\File.java"
-# or in cmd:
+```
+
+Or in `cmd.exe`:
+
+```cmd
 runcode C:\path\to\your\File.java
 ```
 
-### Troubleshooting
+✅ You should see your script’s output.
 
-* If PowerShell says `runcode` not found: open a new shell (PATH changes take effect only in new shells).
-* If it prints: “The command 'runcode' was not found but does exist in the current location” — run `.\runcode.ps1` when in that folder, or use the wrapper / alias method above.
-* If scripts are blocked: re-run `Set-ExecutionPolicy` (CurrentUser) as shown.
+---
 
+### 🔍 Troubleshooting
+
+| Problem                                           | Solution                                                                    |
+| ------------------------------------------------- | --------------------------------------------------------------------------- |
+| `runcode not found`                               | Open a new terminal after editing PATH                                      |
+| “Command exists in current location, not in PATH” | Use: `.\runcode.ps1`, or add alias or wrapper as above                      |
+| `ExecutionPolicy` blocked the script              | Run: `Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned` |
+| `runcode.cmd` exists but does nothing             | Check the path inside the `.cmd` file — it must match your `.ps1` path      |
+
+---
+
+### 🔁 Quick verification commands
+
+#### PowerShell
+
+```powershell
+# Check script exists
+Test-Path C:\Tools\runcode.ps1
+
+# Show if Tools is in PATH
+$env:PATH -split ';' | Where-Object { $_ -match 'C:\\Tools' }
+
+# Run the script
+runcode "C:\full\path\to\File.java"
+```
+
+#### CMD
+
+```cmd
+runcode C:\full\path\to\File.java
+```
 ---
 
 # Quick cross-check commands (copy/paste)
