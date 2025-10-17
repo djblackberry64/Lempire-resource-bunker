@@ -77,6 +77,7 @@ Refresh the shell environment:
 ```
 
 > ✅ Quick
+> 
 > ❌ Not available in scripts or child shells
 
 ---
@@ -129,10 +130,6 @@ Many Linux distributions include `~/bin` in your PATH by default.
 
 ```bash
 mkdir -p ~/bin
-
-
-
----
 mv ~/Tools/runcode ~/bin/runcode
 ```
 
@@ -149,11 +146,15 @@ This adds both an alias and ensures `~/Tools` is in your PATH — ideal for `.ba
 ```
 
 > ✅ One-liner: minimal setup
+>
 > 🔁 Add it to `~/.bashrc` or `~/.zshrc`, then run `. ~/.bashrc` to apply
+> 
+> If you use Zsh instead of Bash, add these commands to ~/.zshrc instead.
 
 ---
 
 # ✅ Windows (PowerShell) — Make `runcode` Feel Like a Native Command
+> This guide targets Windows PowerShell; for PowerShell Core (pwsh), most steps are similar but the profile path may differ.
 
 There are two good approaches:
 
@@ -262,7 +263,7 @@ setx PATH "$($env:PATH);C:\Tools"
 ```
 
 > ⚠️ This edits the **user** PATH permanently, but doesn’t affect current shells — open a new one to see the change.
-
+>
 > ⚠️ Note on PATH editing:
  Using setx appends to your user PATH permanently but doesn’t check for duplicates. Running it multiple times may cause repeated entries. If unsure, edit PATH via GUI or manually verify to keep it clean.
 
