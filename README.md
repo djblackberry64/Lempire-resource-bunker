@@ -223,4 +223,6 @@ If you have any questions feel free to check out our <a href="https://github.com
 <hr />
 <h3>License</h3><br />
 - Code: <a href="https://github.com/djblackberry64/404-resource-bunker/blob/main/LICENSE-CODE">Apache 2.0</a><br />
-- Content: <a href="https://github.com/djblackberry64/404-resource-bunker/blob/main/LICENSE-CONTENT">CC BY 4.0</a>
+- Content: <a href="https://github.com/djblackberry64/404-resource-bunker/blob/main/LICENSE-CONTENT">CC BY-NC-SA 4.0</a><br />
+As of 22.10.2025, this project content is licensed under CC BY-NC-SA 4.0.
+Prior versions (no longer publicly available) were released under CC BY 4.0.
