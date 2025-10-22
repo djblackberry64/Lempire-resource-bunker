@@ -24,6 +24,7 @@ These resources focus on logic, algorithms, and computer science basics:<br />
     <li>freeCodeCamp: <a href="https://www.freecodecamp.org/">Link</a> – Interactive platform with CS fundamentals + projects.</li>
     <li>Khan Academy – Computer Programming: <a href="https://www.khanacademy.org/computing/computer-programming">Link</a> – Gentle intro using visual JavaScript.</li>
     <li>GeeksforGeeks Fundamentals: <a href="https://www.geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/">Link</a> – Encyclopedia-style explanations.</li>
+    <li>Boot.dev: <a href="https://www.boot.dev/">Link</a> - Free to watch and read(learn CLI, Git, Python, Go, Rust, JS and many more...<a href="https://www.boot.dev/courses">Link to their course list</a>)</li>
 </ul>
 <hr />
 3. 🌐 Web Development & JavaScript<br />
@@ -48,6 +49,7 @@ These resources focus on logic, algorithms, and computer science basics:<br />
     <li>Corey Schafer’s Python Playlist (YT): <a href="https://www.youtube.com/playlist?list=PLprDVKp2F5g15dX01vra7YKEffSPgwljB">Link</a></li>
     <li>W3Schools Python Tutorial: <a href="https://www.w3schools.com/python/">Link</a> – Quick hands-on practice.</li>
     <li>Python books: <a href="https://pythonbooks.org/free-books/">Books here</a></li>
+    <li>Boot.dev: <a href="https://www.boot.dev/">Link</a> - Free to watch and read(learn CLI, Git, Python, Go, Rust, JS and many more...<a href="https://www.boot.dev/courses">Link to their course list</a>)</li>
 </ul>
 <hr />
 5. ☕ Java<br />
@@ -89,6 +91,7 @@ These resources focus on logic, algorithms, and computer science basics:<br />
     <li>Codecademy: <a href="https://www.codecademy.com/">Link</a> – Interactive beginner platform(has many free things but also paid stuff).</li>
     <li>Codedex: <a href="https://www.codedex.io/home">Link</a> – Similar to Codecademy.</li>
     <li>Exercism: <a href="https://exercism.org/">Link</a> – Small coding challenges with mentor feedback.</li>
+    <li>Boot.dev: <a href="https://www.boot.dev/">Link</a> - Free to watch and read(learn CLI, Git, Python, Go, Rust, JS and many more...<a href="https://www.boot.dev/courses">Link to their course list</a>)</li>
 </ul>
 <hr />
 9. 🛠️ Developer Tools & Courses/Websites<br />
@@ -96,6 +99,7 @@ These resources focus on logic, algorithms, and computer science basics:<br />
     <li>Git Documentation: <a href="https://git-scm.com/doc">Link</a></li>
     <li>W3schools(perfect for quick references and tutorials in variuos languages): <a href="https://www.w3schools.com/">W3schools</a></li>
     <li>stepik: <a href="https://stepik.org/">Link</a> – Free online courses.</li>
+    <li>Boot.dev: <a href="https://www.boot.dev/">Link</a> - Free to watch and read(learn CLI, Git, Python, Go, Rust, JS and many more...<a href="https://www.boot.dev/courses">Link to their course list</a>)</li>
     <li>Paid courses: The App Brewery on Udemy - <a href="https://www.appbrewery.com/l/products?sortKey=name&sortDirection=asc&page=1">Link to their website where you get redirected then</a></li>
     <ul>
     Apps (mobile learning and or editing):<br />
