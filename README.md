@@ -1,5 +1,5 @@
 # Lempire-resource-bunker
-<b>made by <a href="https://discord.gg/UHgAmk6zEa">Lempire Discord group</a></b>
+<b>made by <a href="https://ko-fi.com/djblackberry64">djblackberry64</a> supported by <a href="https://discord.gg/UHgAmk6zEa">Lempire Discord group</a></b>
 
 # Description
 A repo focused on refering and collecting good resources for programming and general digital work
