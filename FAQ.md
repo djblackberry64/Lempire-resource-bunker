@@ -20,5 +20,5 @@ If you've found a bug, please feel free to report this on our <a href="https://d
 Absolutely! We welcome contributions. Please make sure to check with our team first. A contribution guide will follow!
 
 ### Is the project open source?
-Yes, the project is open source and licensed under the <a href="https://github.com/djblackberry64/404-resource-bunker/blob/main/LICENSE-CODE">Apache 2.0</a> license but be aware that the content itself is licensed under the <a href="https://github.com/djblackberry64/404-resource-bunker/blob/main/LICENSE-CONTENT">CC BY 4.0</a> license. You can find the source code here:
+Yes, the project is open source and licensed under the <a href="https://github.com/djblackberry64/404-resource-bunker/blob/main/LICENSE-CODE">Apache 2.0</a> license but be aware that the content itself is licensed under the <a href="https://github.com/djblackberry64/404-resource-bunker/blob/main/LICENSE-CONTENT">CC BY-NC-SA 4.0</a> license. You can find the source code here:
 <a href="https://github.com/djblackberry64/404-resource-bunker">Link to repo</a>
