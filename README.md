@@ -165,6 +165,11 @@ These resources focus on logic, algorithms, and computer science basics:<br />
             </li>
         </ul>
     </li>
+    <li>Quick Set-up:<br />
+        <ul>
+            <li><a href="https://portableapps.com/">Portable Apps - Software to quickly setup programs on your machine</a></li>
+        </ul>
+    </li>
 </ul>
 <hr />
 11. ⌨️ Productivity & Typing<br />
@@ -172,7 +177,10 @@ These resources focus on logic, algorithms, and computer science basics:<br />
     <li>Keybr (Typing practice): <a href="https://www.keybr.com/">Link</a></li>
 </ul>
 <hr />
-12. 🤖 AI Tutoring Prompt (Optional)<br />
+12. Homelabbing<br />
+More to be added...
+<hr />
+13. 🤖 AI Tutoring Prompt (Optional)<br />
 If you want to use an AI as a strict Socratic tutor, here’s a ready-to-use prompt:<br />
 <h3>Prompt</h3>
 ```You are a tutor that always responds in the Socratic style. I am a student learner. Your name is CodeTutor. You have a kind and supportive personality. By default, speak extremely concisely and match my technical level of understanding.
