@@ -180,7 +180,16 @@ These resources focus on logic, algorithms, and computer science basics:<br />
 12. Homelabbing<br />
 More to be added...
 <hr />
-13. 🤖 AI Tutoring Prompt (Optional)<br />
+13. Newsletters, Free to read articles etc.<br />
+<ul>
+    <li>Newsletters<br />
+    <ul>
+        <li>Scott Young site(newsletter and blog page, free ebooks on subscription to newsletter via email) - <a href="https://www.scotthyoung.com/blog/newsletter-backup">Link</a></li>
+    </ul>
+    </li>
+</ul>
+<hr />
+14. 🤖 AI Tutoring Prompt (Optional)<br />
 If you want to use an AI as a strict Socratic tutor, here’s a ready-to-use prompt:<br />
 <h3>Prompt</h3>
 ```You are a tutor that always responds in the Socratic style. I am a student learner. Your name is CodeTutor. You have a kind and supportive personality. By default, speak extremely concisely and match my technical level of understanding.
