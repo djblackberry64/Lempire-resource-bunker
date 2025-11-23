@@ -57,6 +57,7 @@ function Run-Command {
         switch ($lang) {
             "java" {
                 $extension = [System.IO.Path]::GetExtension($fileName).TrimStart(".")
+                Push-Location $fileDir
                 if ($extension -eq "class") {
                     & java $fileName.Substring(0,$fileName.LastIndexOf("."))
                 } else {
@@ -65,6 +66,7 @@ function Run-Command {
                         & java $fileName.Substring(0,$fileName.LastIndexOf("."))
                     }
                 }
+                Pop-Location
             }
             "rs" {
                 & rustc $fileName
@@ -88,7 +90,11 @@ function Run-Command {
 # ------------- Automatic -------------
 if ($mode -eq "1") {
     $extension = [System.IO.Path]::GetExtension($filename).TrimStart(".").ToLower()
-    if ($commands.ContainsKey($extension)) {
+    # Support .class files automatically as Java
+    if ($extension -eq "class") {
+        Run-Command "java" $full_path
+    }
+    elseif ($commands.ContainsKey($extension)) {
         Run-Command $extension $full_path
     } else {
         Write-Host "This language is currently not supported or your file ending is incorrect."
