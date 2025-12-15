@@ -3,7 +3,7 @@
 >
 > A Note from the Curator
 >
-> This repository is a passion project maintained by [djblackberry/https://x.com/djblackberry64]. If you find this collection valuable, you can follow my work on Twitter/X for more insights and resources. If you'd like to support the ongoing curation and expansion of this list, you can do so via <a href="https://ko-fi.com/djblackberry64">Ko-fi</a>. Suggestions and contributions are always welcome!
+> This repository is a passion project maintained by [djblackberry64/https://x.com/djblackberry64]. If you find this collection valuable, you can follow my work on Twitter/X for more insights and resources. If you'd like to support the ongoing curation and expansion of this list, you can do so via <a href="https://ko-fi.com/djblackberry64">Ko-fi</a>. Suggestions and contributions are always welcome!
 
 # Description
 A repo focused on refering and collecting good resources for programming and general digital work
