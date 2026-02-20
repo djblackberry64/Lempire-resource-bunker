@@ -1,4 +1,4 @@
-# Lempire-resource-bunker
+# Djblackberry64-resource-bunker
 > <b>made by <a href="https://x.com/djblackberry64">djblackberry64</a> supported by <a href="https://discord.gg/UHgAmk6zEa">Lempire Discord group</a></b>
 >
 > A Note from the Curator
