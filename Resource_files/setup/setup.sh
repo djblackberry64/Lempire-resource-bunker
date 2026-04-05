@@ -44,5 +44,10 @@ sudo update-alternatives --install /usr/bin/x-www-browser x-www-browser /usr/bin
 sudo update-alternatives --set x-www-browser /usr/bin/brave-browser
 echo "Brave set as default!"
 
+# ---------------------------
+# 6 Helpful Aliases
+# ---------------------------
+
+echo "alias update='sudo apt update && sudo apt upgrade -y'" >> ~/.bashrc
 
 echo ":) Setup completed!"
