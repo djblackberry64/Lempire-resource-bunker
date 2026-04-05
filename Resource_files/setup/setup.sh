@@ -7,20 +7,30 @@ sudo apt update && sudo apt upgrade -y
 sudo apt install -y zed localsend brave-browser
 
 # ---------------------------
-# 2 Firefox entfernen
+# 2 Firefox removal
 # ---------------------------
 sudo apt purge -y firefox
 sudo apt autoremove -y
 
 # ---------------------------
-# 3 Brave als Standardbrowser
+# 3 Brave as Standard Browser
 # ---------------------------
 xdg-settings set default-web-browser brave-browser.desktop
 sudo update-alternatives --install /usr/bin/x-www-browser x-www-browser /usr/bin/brave-browser 100
 sudo update-alternatives --set x-www-browser /usr/bin/brave-browser
 
 # ---------------------------
-# 4 Desktop Shortcuts erstellen
+# 4 Programming Installations
+# ---------------------------
+
+sudo apt install default-jdk \
+python3 \
+python3-pip \
+git \
+curl -y
+
+# ---------------------------
+# 5 Create Desktop Shortcuts
 # ---------------------------
 DESKTOP_DIR="$HOME/Desktop"
 
@@ -65,4 +75,4 @@ chmod +x "$DESKTOP_DIR/Zed.desktop"
 chmod +x "$DESKTOP_DIR/LocalSend.desktop"
 chmod +x "$DESKTOP_DIR/Brave.desktop"
 
-echo ":) Setup abgeschlossen! Desktop-Shortcuts für Zed, LocalSend und Brave erstellt."
+echo ":) Setup completed! Desktop-Shortcuts created for Zed, LocalSend and Brave."
