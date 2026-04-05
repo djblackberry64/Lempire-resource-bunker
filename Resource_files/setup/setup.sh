@@ -29,7 +29,8 @@ echo "Developer tools & package managers installed!"
 # 4 Tools
 # ---------------------------
 curl -f https://zed.dev/install.sh | sh
-echo 'export PATH=$HOME/.local/bin:$PATH' >> ~/.bashrc source ~/.bashrc
+echo 'export PATH=$HOME/.local/bin:$PATH' >> ~/.bashrc
+source ~/.bashrc
 curl -fsS https://dl.brave.com/install.sh | sh
 sudo snap install localsend
 echo "Standard apps installed!"
