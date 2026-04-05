@@ -1,10 +1,9 @@
 #!/bin/bash
 
 # ---------------------------
-# 1 System Update & Tools
+# 1 System Update
 # ---------------------------
 sudo apt update && sudo apt upgrade -y
-sudo apt install -y zed localsend brave-browser
 
 # ---------------------------
 # 2 Firefox removal
@@ -12,25 +11,34 @@ sudo apt install -y zed localsend brave-browser
 sudo apt purge -y firefox
 sudo apt autoremove -y
 
-# ---------------------------
-# 3 Brave as Standard Browser
-# ---------------------------
-xdg-settings set default-web-browser brave-browser.desktop
-sudo update-alternatives --install /usr/bin/x-www-browser x-www-browser /usr/bin/brave-browser 100
-sudo update-alternatives --set x-www-browser /usr/bin/brave-browser
 
 # ---------------------------
-# 4 Programming Installations
+# 3 Programming Installations & Package Managers
 # ---------------------------
 
 sudo apt install default-jdk \
 python3 \
 python3-pip \
 git \
-curl -y
+curl \
+winget -y
 
 # ---------------------------
-# 5 Create Desktop Shortcuts
+# 4 Tools
+# ---------------------------
+curl -f https://zed.dev/install.sh | sh
+curl -fsS https://dl.brave.com/install.sh | sh
+sudo snap install localsend
+
+# ---------------------------
+# 5 Brave as Standard Browser
+# ---------------------------
+xdg-settings set default-web-browser brave-browser.desktop
+sudo update-alternatives --install /usr/bin/x-www-browser x-www-browser /usr/bin/brave-browser 100
+sudo update-alternatives --set x-www-browser /usr/bin/brave-browser
+
+# ---------------------------
+# 6 Create Desktop Shortcuts
 # ---------------------------
 DESKTOP_DIR="$HOME/Desktop"
 
