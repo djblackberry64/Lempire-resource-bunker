@@ -29,6 +29,7 @@ echo "Developer tools & package managers installed!"
 # 4 Tools
 # ---------------------------
 curl -f https://zed.dev/install.sh | sh
+echo 'export PATH=$HOME/.local/bin:$PATH' >> ~/.bashrc source ~/.bashrc
 curl -fsS https://dl.brave.com/install.sh | sh
 sudo snap install localsend
 echo "Standard apps installed!"
@@ -42,4 +43,4 @@ sudo update-alternatives --set x-www-browser /usr/bin/brave-browser
 echo "Brave set as default!"
 
 
-echo ":) Setup completed! Desktop-Shortcuts created for Zed, LocalSend and Brave."
+echo ":) Setup completed!"
