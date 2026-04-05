@@ -32,7 +32,8 @@ curl -f https://zed.dev/install.sh | sh
 echo 'export PATH=$HOME/.local/bin:$PATH' >> ~/.bashrc
 source ~/.bashrc
 curl -fsS https://dl.brave.com/install.sh | sh
-sudo snap install localsend
+wget https://github.com/localsend/localsend/releases/download/v1.17.0/LocalSend-1.17.0-linux-x86-64.AppImage -O ~/LocalSend.AppImage
+chmod +x ~/LocalSend.AppImage
 echo "Standard apps installed!"
 
 # ---------------------------
