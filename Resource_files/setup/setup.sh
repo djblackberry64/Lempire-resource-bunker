@@ -21,7 +21,7 @@ python3 \
 python3-pip \
 git \
 curl \
-winget -y
+wget -y
 
 # ---------------------------
 # 4 Tools
