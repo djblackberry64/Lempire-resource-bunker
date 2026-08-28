@@ -108,9 +108,10 @@ These resources focus on logic, algorithms, and computer science basics:<br />
     <li>W3schools(perfect for quick references and tutorials in variuos languages): <a href="https://www.w3schools.com/">W3schools</a></li>
     <li>stepik: <a href="https://stepik.org/">Link</a> – Free online courses.</li>
     <li>Boot.dev: <a href="https://www.boot.dev/">Link</a> - Free to watch and read(learn CLI, Git, Python, Go, Rust, JS and many more...<a href="https://www.boot.dev/courses">Link to their course list</a>)</li>
-    <li>Paid courses: The App Brewery on Udemy - <a href="https://www.appbrewery.com/l/products?sortKey=name&sortDirection=asc&page=1">Link to their website where you get redirected then</a></li>
-    <ul>
-    Apps (mobile learning and or editing):<br />
+    <li> <strong>Paid courses</strong>: The App Brewery on Udemy - <a href="https://www.appbrewery.com/l/products?sortKey=name&sortDirection=asc&page=1">Link to their website where you get redirected then</a></li>
+    <li>
+        Apps (mobile learning and or editing):<br />
+        <ul>
         <li>Enki (bite-sized, no ads)</li>
         <li>Mimo (Duolingo-style)</li>
         <li>SoloLearn (minimalist, no ads)</li>
@@ -119,7 +120,7 @@ These resources focus on logic, algorithms, and computer science basics:<br />
         <li>Spck Editor / Git Client - <a href="https://play.google.com/store/apps/details?id=io.spck&pli=1">Link to Google Play Store</a></li>
         <li><a href="https://play.google.com/store/apps/details?id=com.foxdebug.acodefree">Acode - Link to Google Play Store</a></li>
         <li><a href="https://github.com/termux/termux-app">Termux - Link to GitHub repo</a></li>
-    </ul>
+    </ul></li>
 </ul>
 <hr />
 
@@ -182,7 +183,10 @@ These resources focus on logic, algorithms, and computer science basics:<br />
 </ul>
 <hr />
 12. Homelabbing<br />
-More to be added...
+<ul>
+    <li><a href="https://www.youtube.com/@NetworkChuck">NetworkChuck - Energetic Intro into Homelabbing</a></li>
+    <li><a href="https://www.youtube.com/@HardwareHaven">HardwareHaven - Easy to follow, budget homelabbing content</a></li>
+</ul>
 <hr />
 13. Newsletters, Free to read articles etc.<br />
 <ul>
@@ -240,6 +244,7 @@ If I make an error in my code, do not tell me the fix directly. Instead, ask me 
 4. Test with simple inputs <br />
 <hr />
 ✅ How to Use This List<br />
+Programmer:
 <ul>
     <li>Step 0 (Mindset): Do Learning How to Learn + Amy Wang/Justin Sung.</li>
     <li>Step 1 (Fundamentals): Pick CS50x, freeCodeCamp, or Khan Academy.</li>
@@ -247,6 +252,14 @@ If I make an error in my code, do not tell me the fix directly. Instead, ask me 
     <li>Step 3 (Build Projects): The Odin Project, Full Stack Open, or Wes Bos.</li>
     <li>Step 4 (Level Up): Practice on LeetCode / CodeKata / Exercism.</li>
     <li>Step 5 (Boost Productivity): Explore the open-source tools.</li>
+</ul>
+Basics:
+<ul>
+    <li>Step 0 (Mindset): Do Learning How to Learn + Amy Wang/Justin Sung.</li>
+    <li>Step 1 (Productivity): Learn touch typing at Keybr.com</li>
+    <li>Step 2 (Tooling): Explore the free/open-source tools, don't pay extra if you just wanna try out a topic!</li>
+    <li>Step 3 (Direction): Find what interests you and move forward with it</li>
+    <li>Step 4 (Employment): Look up job descriptions on LinkedIn, etc. to see what skills are expected of your future role.</li>
 </ul>
 If you have any questions feel free to check out our <a href="https://github.com/djblackberry64/Lempire-resource-bunker/blob/main/FAQ.md">FAQ</a> and our <a href="https://discord.gg/UHgAmk6zEa">Discord</a>
 <hr />
